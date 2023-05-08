@@ -1,0 +1,52 @@
+body{
+    background-image: url(https://recreasport.com/wp-content/uploads/2017/04/SAM_0191-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background-color: rgb(37, 137, 230);
+    text-align: center;
+
+}
+nav{
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.boton {
+    background-color: rgb(98, 179, 82);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1.5px solid rgb(12, 88, 228);
+    padding: 4px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.boton:hover {
+    background-color: rgba(188, 114, 238, 0.767);
+    color: rgb(0, 0, 0);
+}
+
+picture img {
+    width: 30%;
+    height: 530%;
+}
+picture {
+    display: flex;
+}
+
+h2{
+    color:black;
+}
+p{
+    background-color: rgba(255, 255, 255, 0.486);
+    color: black;
+}
