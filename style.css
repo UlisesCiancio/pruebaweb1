@@ -1,18 +1,20 @@
-body{
-    background-image: url(https://recreasport.com/wp-content/uploads/2017/04/SAM_0191-2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+    background: rgb(92, 28, 99);
+    background: linear-gradient(0deg, rgba(92, 28, 99, 1) 23%, rgba(0, 255, 224, 1) 100%);
 }
-header{
-    background-color: rgb(37, 137, 230);
+
+header {
+
     text-align: center;
 
 }
-nav{
+
+nav {
     text-align: center;
 }
 
-li{
+li {
+    color: black;
     list-style: none;
 }
 
@@ -21,7 +23,7 @@ nav li {
 }
 
 .boton {
-    background-color: rgb(98, 179, 82);
+    background-color: #8c98f7;
     text-decoration: none;
     color: rgb(0, 0, 0);
     border: 1.5px solid rgb(12, 88, 228);
@@ -36,17 +38,43 @@ nav li {
 }
 
 picture img {
-    width: 30%;
-    height: 530%;
+    width: 25%;
+    height: 25%;
 }
+
 picture {
+    justify-content: center;
     display: flex;
 }
 
-h2{
-    color:black;
-}
-p{
-    background-color: rgba(255, 255, 255, 0.486);
+h2 {
+    text-transform: uppercase;
+    font-weight: 600;
     color: black;
+}
+
+p {
+    background-color: #bbd0ff;
+    color: black;
+}
+
+#escuela {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-color: #5c1c63
+}
+
+#logos2 {
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+  
+}
+.iconos{
+    width: 3%;
+    height: 3%;
 }
