@@ -72,9 +72,13 @@ footer {
     margin-right: 30px;
     display: flex;
     justify-content: center;
-  
 }
 .iconos{
     width: 3%;
     height: 3%;
+}
+#info{
+    color: white;
+    text-align: center;
+    background-color:#5c1c6300
 }
